@@ -41,5 +41,13 @@
 - **Multiplataforma**: Desde que você tenha uma JVM você pode interpretar seu código Java em varios SOs diferentes e hardwares vão compreender;
 - **Arquivo .class**: É um arquivo gerado pelo compilador que contém o bytecode, que a JVM usa para executar o seu programa;
 
+## Garbage Collector (coletor de lixo):
+- **Acúmulo de lixo**: Num código de mais baixo nível o objeto destruído é necessário da um "Free" para que ele desocupe a memória;
+- **Garbage Collector**: É como se fosse um ajudante que faz esse papel sem que o programador tenha que fazer esse processo nas linhas de código;
+  - **É Automático**: Ele é automático então o programador naão tem que se preocupar com isso;
+  - **JVM + GC**: a JVM faz o trabalho pesado fazendo com que todo o código seja executado corretamente, a limpeza é feita automaticamente pelo CG;
+- **Exemplo**: Num programa que precisa executar configurações iniciais, uma vez que elas são aplicadas elas não precisam mais ser executadas no programa, então o GC tabalha na limpeza do programa relacionadas a essas variáveis e objetos
+- **Conseiderações**: Se o programa tiver muita coisa utilizando a memória e principalmente coisa desnecessária ele pode travar e parar de funcionar, pois vai acabar o espaço destinado a aplicação. O GC do Java é extremamente eficiente;
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
