@@ -11,7 +11,7 @@
 - Duke, criado por Joe Palrang inspirado em Star Trek;
 
 
-## Vantagens de Aprendizado
+## Vantagens de Aprendizado:
 - Popularidade e demando no mercado;
 - Aplicações em IA e Análise de Dados(Weka, DL4J, Mahout);
 - Integração com Plataformas de Redes Sociais, como WhatsApp, FaceBook e outras(Meta for Developers);
@@ -24,6 +24,16 @@
 - Grande Variedade de aplicações: como desenvolvimento Android, até sistemas de gerenciamento de banco de dados e muito mais;
 - Uso em tecnologias de Hacking Ético e Segurança Cibernética. Ex.: Burp Suite, OWASP Zap;
 - Uso de Java em IOTs e Cartões. "Coisas" inteligentes em casa, e Java Card;
+
+## Conceitos Importantes:
+- **Framework**: É a base de um sistema que já vem com estruturas já construídas, que define como um software deve ser estruturado e fornace um conjunto de ferramentas e componentes prontos pra ajudar a construir um programa ou aplicativo de forma mais rápida e organizada, sem ter que reinventar a roda a cada novo projeto;
+- **API - Application Programming Inteface**: Interface de Programação de Aplicações, ela á como um guia de um quebra cabeça, e mostra a imagem final do que você quer montar e dá instruções sobre quais peças se encaixam. Ela mostra como os programas podem interagir entre si, e mostrando comandos que permitem essa cominucação;
+- **Bibliotecas**: São como os conjuntos de peças do quebra cabeça que já estão pré-montados, são conjuntos prontos que te ajudam montar o quebra cabeça mais rápidamente no software, elas geralmente realizam tarefas comuns e você não precisa reescrever tudo do zero;
+- **Módulos em Java**: São como seções que você pode trabalhar em uma de cada vez escolhendo os temas ou peças, e no final será reunido tudo num mesmo projeto. Ela ajuda organizar partes especificar do programa sem afetar o código todo;
+- **Case Sensitive**: Minúsculo é dferente de Maiúsculo;
+- **JVM**: Maquina virtual Java, é como se fosse um tradutor de auto nível para baixo nível;
+  - **Portabilidade do código Java**: Permite que se possa usar vários tipos de SOs;
+  - **Compatibilidade da JVM**: Embora o Código Java seja portátil, a JVM em si precisa ser especifica para cada sistema operacional(Windows, Mac, Linux, Android, etc) ou dispositivo;
 
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
