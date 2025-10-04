@@ -58,5 +58,24 @@
 - **IDE - Integrated Developmente Enviroment(Ambiente integrado de Desenvolvimento)**: Trata-se de um software que reúne várias ferramentas em um só lugar. Por exemplo, uam IDE como o Eclipse, STS ou Intellij IDEA, oferece recursos como edição de código, compilação depuração, e até mesmo controle de versão, tudo em um único ambiente.
 - **Sublime Text x Spring Tools**: No inicio do curso será usado o Sublime, a medida que for avançando será utilizada o STS que é insperado no Eclipse e otimizada para projetos Spring Boot.
 
+## Versões do Java:
+- **LTS - Long- Term Support**: Suporte de longo prazo; 
+- **Não-LTS**: São versões mais novas, lançadas a cada 6 meses dom recursos modernos;
+  - O Suporte é curto, pois são substituídas por outra versão.
+- **LTS Gratuitas**: São distribuições baseadas em OpenJDK, mantidas por empresas como Amazon e Eclipse Fondation.
+  - Oferecem suporte prolongado (5 anos ou mais) gratuitamente;
+  - Usadas por empresas que preferem evitar custos, mas ainda querem estabilidade.
+- **LTS Pagas**: O Oracle JDK oferece os mesmos recursos do OpenJDK e e pelo menos 8 anos de suporte;
+  - Inclui suporte técnico pago ideal para empresas que precisam de garantias profissionais.
+- **Conclusões**:
+  - Todas as versões funcionam da mesma forma e executam o mesmo código Java;
+  - A diferença está no tempo de suporte e na necessidade (ou não) de pagar pelo suporte técnico;
+  - O OpenJDK é gratuito e amplamente usado, enquanto a Oracle JDK é paga para quem precisa de assistência especializada;
+  - O OpenJDK é a implementação gratuita e aberta do Java, usada mundialmente;
+  - A versão paga (Oracle JDK) é baseada no OpenJDK;
+  - O OpenJDK é mantido pela comunidade e por empresas, incluindo a própria Oracle;
+  - Oracle JDK e OpenJDK são praticamente idênticos — a principal diferença está no suporte e na licença;
+    
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
