@@ -34,6 +34,12 @@
 - **JVM**: Maquina virtual Java, é como se fosse um tradutor de auto nível para baixo nível;
   - **Portabilidade do código Java**: Permite que se possa usar vários tipos de SOs;
   - **Compatibilidade da JVM**: Embora o Código Java seja portátil, a JVM em si precisa ser especifica para cada sistema operacional(Windows, Mac, Linux, Android, etc) ou dispositivo;
+ 
+## Compilação Java:
+- **Compilação**: Transformação do código Java(alto-nível) para linguagem de maquina ou binário(baixo-nível);
+- **Bytecode**: É um códido intermediário entre o código Java e o binário. Ele é gerado ao compilar o Java. Ele é um código universal que diferentes tecnologias de computador podem entender, e JVM é quem vai executar;
+- **Multiplataforma**: Desde que você tenha uma JVM você pode interpretar seu código Java em varios SOs diferentes e hardwares vão compreender;
+- **Arquivo .class**: É um arquivo gerado pelo compilador que contém o bytecode, que a JVM usa para executar o seu programa;
 
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
