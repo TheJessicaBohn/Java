@@ -54,5 +54,9 @@
 - **JDK - Java Development Kit**: Que é o Kit de desenvolvimento Java, que é uma caixa de ferramentas avançadas que contém tudo que você precisa para construir seu programa Java do zero. Além de todas as coisas que o JRE, O JDK também contém ferramentas extras que os programadores usam pra escrever e testar seus programas Java;
 - **Diferença**: Se você vai apenas executar um programa feito, você precisa apenas do JRE, se você vai construir um programa, você precisa do JDK;
 
+## Uso de IDE:
+- **IDE - Integrated Developmente Enviroment(Ambiente integrado de Desenvolvimento)**: Trata-se de um software que reúne várias ferramentas em um só lugar. Por exemplo, uam IDE como o Eclipse, STS ou Intellij IDEA, oferece recursos como edição de código, compilação depuração, e até mesmo controle de versão, tudo em um único ambiente.
+- **Sublime Text x Spring Tools**: No inicio do curso será usado o Sublime, a medida que for avançando será utilizada o STS que é insperado no Eclipse e otimizada para projetos Spring Boot.
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
