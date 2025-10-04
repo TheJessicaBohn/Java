@@ -49,5 +49,10 @@
 - **Exemplo**: Num programa que precisa executar configurações iniciais, uma vez que elas são aplicadas elas não precisam mais ser executadas no programa, então o GC tabalha na limpeza do programa relacionadas a essas variáveis e objetos
 - **Conseiderações**: Se o programa tiver muita coisa utilizando a memória e principalmente coisa desnecessária ele pode travar e parar de funcionar, pois vai acabar o espaço destinado a aplicação. O GC do Java é extremamente eficiente;
 
+## JRE & JDK:
+- **JRE - Java Runtime Enviroment**: É uma caixa de ferramenta que contém tudo o que um programa Java precisa para ser executado, e contem a JVM, e todas as bibliotecas que o programa precisa pra funcionar corretamente
+- **JDK - Java Development Kit**: Que é o Kit de desenvolvimento Java, que é uma caixa de ferramentas avançadas que contém tudo que você precisa para construir seu programa Java do zero. Além de todas as coisas que o JRE, O JDK também contém ferramentas extras que os programadores usam pra escrever e testar seus programas Java;
+- **Diferença**: Se você vai apenas executar um programa feito, você precisa apenas do JRE, se você vai construir um programa, você precisa do JDK;
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
