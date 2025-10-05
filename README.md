@@ -81,5 +81,14 @@
  - [JFX 22.0.x](https://openjfx.io/);
  - [Sublime Text](https://www.sublimetext.com/);
 
+## Configurando ambiente Java:
+- Com os arquivos baixados, crie uma pasta no C:/Java e lá guarde as pastas JDK 22 e JFX
+- Após isso configure-as nas variaveis de ambiente:
+  - Uma nova chamada JAVA_HOME com o caminho completo do JDK: <img width="403" height="23" alt="image" src="https://github.com/user-attachments/assets/095bea81-194b-4a20-a93a-64562d7f156e" />
+  - Uma no Path com a pasta bin de JDK: <img width="276" height="24" alt="image" src="https://github.com/user-attachments/assets/3fa3bcb6-a6b3-4a46-ac44-9ed0eaa2d539" />
+  - Outra nova chamada PATH_TO_FX com o caminho da lib dentro de JFX: <img width="524" height="17" alt="image" src="https://github.com/user-attachments/assets/dd44627a-7537-4435-9956-314babb44635" />
+- Agora teste no cmd com ```java -version```: <img width="605" height="105" alt="image" src="https://github.com/user-attachments/assets/8b5738bc-7180-44b8-b68f-13035a0732f9" />
+- E o ```javac -version``` para conseguirmos programar: <img width="348" height="35" alt="image" src="https://github.com/user-attachments/assets/9b597dd4-3ece-4cb8-a5ff-581851bee6b0" />
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
