@@ -75,7 +75,11 @@
   - A versão paga (Oracle JDK) é baseada no OpenJDK;
   - O OpenJDK é mantido pela comunidade e por empresas, incluindo a própria Oracle;
   - Oracle JDK e OpenJDK são praticamente idênticos — a principal diferença está no suporte e na licença;
-    
+
+ ## Recursos:
+ - [JDK 22](https://openjdk.org/);
+ - [JFX 22.0.x](https://openjfx.io/);
+ - [Sublime Text](https://www.sublimetext.com/);
 
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
