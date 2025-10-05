@@ -10,7 +10,6 @@
 - Mascote Java: <img width="200" height="245" alt="image" src="https://github.com/user-attachments/assets/ebc90ac7-5fa4-45f8-9bf3-6695e84da201" />
 - Duke, criado por Joe Palrang inspirado em Star Trek;
 
-
 ## Vantagens de Aprendizado:
 - Popularidade e demando no mercado;
 - Aplicações em IA e Análise de Dados(Weka, DL4J, Mahout);
@@ -188,7 +187,43 @@
   ~~~Java
    var numero = 10; // inferência int
    var usuario = new Usuario(); // inferência do tipo Usuario
- ~~~
-
+   ~~~
+## Comentários Java:
+- Notas ou explicações.
+- Existem três tipos de comentários em Java:
+- 1. Comentários de linha única:
+~~~Java
+// Este é um comentário de linha única
+~~~
+- 2.  Comentários de várias linhas:
+~~~Java
+  /*
+  Este é um comentário
+  de várias linhas
+  */
+~~~
+- 3. Comentários Javadoc: Começam com /** e terminam com */. Eles são usados
+para produzir a documentação da API do seu código.
+ ~~~Java
+  /**
+  * Este é um comentário Javadoc
+  */
+~~~
+- Exemplo:
+~~~Java
+public class Exemplo {
+   public static void main(String[] args) {
+     // Este é um comentário de linha única
+     System.out.println("Olá, Mundo!");
+    
+     /*
+     Este é um comentário
+     de várias linhas
+     */
+     int numero = 10;
+     System.out.println("O número é " + numero);
+   }
+} 
+~~~   
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
