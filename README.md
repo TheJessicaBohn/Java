@@ -93,5 +93,20 @@
 ## Configurando o Sublime:
 - Pra instalar é o famoso next, next, next,
 
+## Variáveis:
+- As variáveis em programação são como ingredientes em uma receita;
+- Cada uma tem um **nome** e um **valor**;
+- O nome da variável é usado para se referir ao seu valor;
+- No exemplo abaixo a variável ```farinha```tem o valor 2;
+- Exemplo:
+  ~~~Java
+  public class Main {
+    public static void main(String[] args) {
+      int farinha = 2;
+      System.out.println("A receita requer" + farinha "xicaras de farinha.");
+    }
+  }
+  ~~~
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
