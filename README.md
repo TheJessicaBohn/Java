@@ -177,5 +177,18 @@
     cálculo
  ~~~
 
+## Uso de var em Java:
+- **var** foi introduzida no Java 10;
+- Declarar uma variável;
+- Inferência de valor;
+- Limitações do var:
+  - Variáveis locais;
+  - Valores nulos;  
+- Exemplo:
+  ~~~Java
+   var numero = 10; // inferência int
+   var usuario = new Usuario(); // inferência do tipo Usuario
+ ~~~
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
