@@ -90,5 +90,8 @@
 - Agora teste no cmd com ```java -version```: <img width="605" height="105" alt="image" src="https://github.com/user-attachments/assets/8b5738bc-7180-44b8-b68f-13035a0732f9" />
 - E o ```javac -version``` para conseguirmos programar: <img width="348" height="35" alt="image" src="https://github.com/user-attachments/assets/9b597dd4-3ece-4cb8-a5ff-581851bee6b0" />
 
+## Configurando o Sublime:
+- Pra instalar é o famoso next, next, next,
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
