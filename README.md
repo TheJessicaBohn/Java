@@ -144,5 +144,38 @@
   }
   ~~~
 
+## Promoções(conversões) Automáticas em Java:
+-  1. Regras Básicas:
+   - byte, short e char são promovidos para int quando usados em uma
+    expressão.
+   - Exemplo:
+ ~~~Java
+    byte a = 10;
+    int b = a + 5; // a é promovido para int antes do cálculo
+ ~~~
+  - Se um operando é long, o outro é promovido para long.
+  - Exemplo:
+ ~~~Java
+    int a = 10;
+    long b = 15L;
+    long c = a + b; // a é promovido para long antes do cálculo
+ ~~~
+  - Se um operando é float, o outro é promovido para float.
+  - Exemplo:
+~~~Java
+    int a = 10;
+    float b = 1.5f;
+    float c = a * b; // a é promovido para float antes do
+    cálculo
+~~~
+  - Se um operando é double, o outro é promovido para double.
+  - Exemplo:
+~~~Java
+    int a = 10;
+    double b = 1.5;
+    double c = a * b; // a é promovido para double antes do
+    cálculo
+ ~~~
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
