@@ -224,6 +224,30 @@ public class Exemplo {
      System.out.println("O número é " + numero);
    }
 } 
-~~~   
+~~~
+
+## Identificadores Válidos em Java:
+- 1. **Caracteres permitidos**: Letras (a-z ou A-Z), dígitos (0-9), sublinhados (_) ou
+cifrões ($). Não pode começar com um dígito;
+- 2. **Sensível a maiúsculas e minúsculas**: nome e Nome são diferentes.
+- 3. **Palavras reservadas**: Palavras como int, class, public, etc. não podem ser
+usadas como identificadores.
+- 4. **Sem limite de comprimento**: No entanto, é melhor manter os nomes curtos e
+significativos
+- Exemplos de Identificadores Válidos:
+~~~Java
+  nome
+  idade
+  salarioAnual
+  _temp
+  $id
+~~~
+- Exemplos de Identificadores Inválidos:
+~~~Java
+  123abc // começa com um dígito
+  a-b // contém um caractere inválido, -
+  class // é uma palavra reservada 
+~~~
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
