@@ -132,8 +132,7 @@
      char inicialNome = 'A';
      System.out.println("Idade: " + idade);
      System.out.println("Ano: " + ano);
-     System.out.println("População da cidade: " +
-    populacaoCidade);
+     System.out.println("População da cidade: " + populacaoCidade);
      System.out.println("População mundial: " + populacaoMundial);
      System.out.println("Altura: " + altura);
      System.out.println("Salário: " + salario);
