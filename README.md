@@ -39,7 +39,9 @@
 - **Bytecode**: É um códido intermediário entre o código Java e o binário. Ele é gerado ao compilar o Java. Ele é um código universal que diferentes tecnologias de computador podem entender, e JVM é quem vai executar;
 - **Multiplataforma**: Desde que você tenha uma JVM você pode interpretar seu código Java em varios SOs diferentes e hardwares vão compreender;
 - **Arquivo .class**: É um arquivo gerado pelo compilador que contém o bytecode, que a JVM usa para executar o seu programa;
-
+- Para compilar  ```javac NomeDoArquivo.java``` na primeira vez se não der nenhum erro ele vai criar um **NomeDoArquivo.class**;
+- Para executar o programa ```java NomeDaClasse```
+  
 ## Garbage Collector (coletor de lixo):
 - **Acúmulo de lixo**: Num código de mais baixo nível o objeto destruído é necessário da um "Free" para que ele desocupe a memória;
 - **Garbage Collector**: É como se fosse um ajudante que faz esse papel sem que o programador tenha que fazer esse processo nas linhas de código;
