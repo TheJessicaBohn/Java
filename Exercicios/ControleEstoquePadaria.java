@@ -4,7 +4,7 @@ public class ControleEstoquePadaria {
 		int quantidadeFarinha = 10;
 		int quantidadeAcucar = 5;
 
-		System.out.println("Quantidade de Farinha: " + quantidadeFarinha);
-		System.out.println("Quantidade de Açucar: " + quantidadeAcucar);
+		System.out.println("Quantidade de Farinha: " + quantidadeFarinha + " xícaras");
+		System.out.println("Quantidade de Açucar: " + quantidadeAcucar + " colheres de sopa");
 	}
 }
