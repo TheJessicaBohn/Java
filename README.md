@@ -251,5 +251,13 @@ significativos
 ~~~
 - ```var``` não é uma palavra reservada pois só apareceu no Java10;
 
+## Convenções Java:
+- As convenções de nomenclatura para variáveis em Java são importantes para manter o código legível e consistente:
+- 1. Nomes em minúsculas: Os nomes das variáveis devem começar com uma letra minúscula. Se o nome for composto por várias palavras, use a notação camelCase, onde a primeira letra de cada palavra subsequente é maiúscula. Por exemplo: firstName, lastName;
+- 2. Evitar caracteres especiais: Não use caracteres especiais como &, $, ou _ no início dos nomes das variáveis. Eles devem começar com uma letra;
+- 3. Nomes significativos: Escolha nomes que sejam descritivos e mnemônicos, ou seja, que indiquem claramente a finalidade da variável. Evite nomes de um único caractere (no curso fizemos apenas para testes);
+- 4. Não usar palavras-chave: Certifique-se de que os nomes das variáveis não sejam palavras-chave reservadas da linguagem Java;
+- 5. Nomes de classes: Os nomes das classes devem ser substantivos e começar com uma letra maiúscula. Se o nome for composto por várias palavras, use a notação PascalCase, onde a primeira letra de cada palavra é maiúscula. Por exemplo: Funcionario, GerenteDeConta.
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
