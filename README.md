@@ -259,5 +259,93 @@ significativos
 - 4. Não usar palavras-chave: Certifique-se de que os nomes das variáveis não sejam palavras-chave reservadas da linguagem Java;
 - 5. Nomes de classes: Os nomes das classes devem ser substantivos e começar com uma letra maiúscula. Se o nome for composto por várias palavras, use a notação PascalCase, onde a primeira letra de cada palavra é maiúscula. Por exemplo: Funcionario, GerenteDeConta.
 
+## Tipos de Operadores:
+- Em Java, os operadores são divididos em vários grupos:
+ - **Operadores Aritméticos**: Realizam operações matemáticas.
+   - Os operadores aritméticos são usados para realizar operações matemáticas comuns:
+    - Adição (+)
+    - Subtração (-)
+    - Multiplicação (*)
+    - Divisão (/)
+    - Módulo (resto da divisão) (%)
+  - Exemplo:
+  ~~~Java
+    int a = 10;
+    int b = 2;
+    System.out.println(a + b); // Saída: 12
+    System.out.println(a - b); // Saída: 8
+    System.out.println(a * b); // Saída: 20
+    System.out.println(a / b); // Saída: 5
+    System.out.println(a % b); // Saída: 0
+  ~~~
+ - **Operadores de Comparação**: Comparam dois valores.
+   - Os operadores de comparação são usados para comparar dois valores:
+    - Igual a (==)
+    - Diferente de (!=)
+    - Maior que (>)
+    - Menor que (<)
+    - Maior ou igual a (>=)
+    - Menor ou igual a (<=)
+   - Exemplo:
+   ~~~Java
+    int a = 10;
+    int b = 20;
+    System.out.println(a == b); // Saída: false
+    System.out.println(a != b); // Saída: true
+    System.out.println(a > b); // Saída: false
+    System.out.println(a < b); // Saída: true
+    System.out.println(a >= b); // Saída: false
+    System.out.println(a <= b); // Saída: true
+    ~~~
+ - **Operadores Lógicos**: Combinam duas ou mais condições.
+   - Os operadores lógicos são usados para combinar duas ou mais condições:
+     - E lógico (&&)
+     - OU lógico (||)
+     - NÃO lógico (!)
+   - Exemplo:
+     ~~~Java
+      int a = 10;
+      int b = 20;
+      boolean c = true;
+      System.out.println(a < b && c); // Saída: true
+      System.out.println(a > b || c); // Saída: true
+      System.out.println(!c); // Saída: false
+    ~~~
+ - **Operadores de Atribuição**: Atribuem valores a variáveis.
+   - Os operadores de atribuição são usados para atribuir valores a variáveis:
+    - Atribuição (=)
+    - Atribuição de adição (+=)
+    - Atribuição de subtração (-=)
+    - Atribuição de multiplicação (*=)
+    - Atribuição de divisão (/=)
+    - Atribuição de módulo (%=)
+  - Exemplo:
+    ~~~Java
+      int a = 10;
+      a += 2; // Equivalente a a = a + 2;
+      System.out.println(a); // Saída: 12
+    ~~~
+ - **Operadores Unários**: Operam em um único operando.
+   - Os operadores unários são usados para operar em um único operando:
+     - Incremento (++)
+     - Decremento (--)
+     - Positivo (+)
+     - Negativo (-)
+     - Negação lógica (!)
+   - Exemplo:
+    ~~~Java
+      int a = 10;
+      a++; // Equivalente a a = a + 1;
+      System.out.println(a); // Saída: 11
+    ~~~
+ - **Operadores de Incremento e Decremento**: Manipulações curtas de valores.
+   ~~~Java
+     int a = 5;
+    // Pré-incremento int b = ++a; // Agora, a é 6 e b também é 6
+    // Pós-incremento int c = a++; // Agora, a é 7, mas c é 6 (porque o valor antigo de a foi usado)
+    // Pré-decremento int d = --a; // Agora, a é 6 e d também é 6
+    // Pós-decremento int e = a--; // Agora, a é 5, mas e é 6 (porque o valor antigo de a foi usado)
+    ~~~
+
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
