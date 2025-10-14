@@ -249,6 +249,7 @@ significativos
   a-b // contém um caractere inválido, -
   class // é uma palavra reservada 
 ~~~
+- ```var``` não é uma palavra reservada pois só apareceu no Java10;
 
 ## Fonte:
 - https://www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/learn/lecture/45273057?start=0#overview
