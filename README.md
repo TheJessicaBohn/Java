@@ -162,20 +162,20 @@
  ~~~
   - Se um operando é float, o outro é promovido para float.
   - Exemplo:
-~~~Java
-    int a = 10;
-    float b = 1.5f;
-    float c = a * b; // a é promovido para float antes do
-    cálculo
-~~~
+  ~~~Java
+      int a = 10;
+      float b = 1.5f;
+      float c = a * b; // a é promovido para float antes do
+      cálculo
+  ~~~
   - Se um operando é double, o outro é promovido para double.
   - Exemplo:
-~~~Java
-    int a = 10;
-    double b = 1.5;
-    double c = a * b; // a é promovido para double antes do
-    cálculo
- ~~~
+  ~~~Java
+      int a = 10;
+      double b = 1.5;
+      double c = a * b; // a é promovido para double antes do
+      cálculo
+   ~~~
 
 ## Uso de var em Java:
 - **var** foi introduzida no Java 10;
@@ -185,10 +185,10 @@
   - Variáveis locais;
   - Valores nulos;  
 - Exemplo:
-  ~~~Java
+~~~Java
    var numero = 10; // inferência int
    var usuario = new Usuario(); // inferência do tipo Usuario
-   ~~~
+ ~~~
 ## Comentários Java:
 - Notas ou explicações.
 - Existem três tipos de comentários em Java:
@@ -212,19 +212,19 @@ para produzir a documentação da API do seu código.
 ~~~
 - Exemplo:
 ~~~Java
-public class Exemplo {
-   public static void main(String[] args) {
-     // Este é um comentário de linha única
-     System.out.println("Olá, Mundo!");
-    
-     /*
-     Este é um comentário
-     de várias linhas
-     */
-     int numero = 10;
-     System.out.println("O número é " + numero);
-   }
-} 
+  public class Exemplo {
+     public static void main(String[] args) {
+       // Este é um comentário de linha única
+       System.out.println("Olá, Mundo!");
+      
+       /*
+       Este é um comentário
+       de várias linhas
+       */
+       int numero = 10;
+       System.out.println("O número é " + numero);
+     }
+  } 
 ~~~
 
 ## Identificadores Válidos em Java:
@@ -303,14 +303,14 @@ significativos
      - OU lógico (||)
      - NÃO lógico (!)
    - Exemplo:
-     ~~~Java
-      int a = 10;
-      int b = 20;
-      boolean c = true;
-      System.out.println(a < b && c); // Saída: true
-      System.out.println(a > b || c); // Saída: true
-      System.out.println(!c); // Saída: false
-    ~~~
+   ~~~Java
+    int a = 10;
+    int b = 20;
+    boolean c = true;
+    System.out.println(a < b && c); // Saída: true
+    System.out.println(a > b || c); // Saída: true
+    System.out.println(!c); // Saída: false
+   ~~~
  - **Operadores de Atribuição**: Atribuem valores a variáveis.
    - Os operadores de atribuição são usados para atribuir valores a variáveis:
     - Atribuição (=)
