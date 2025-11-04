@@ -8,6 +8,6 @@ public class IncrementoDecremento{
 		System.out.println("Contador++: " + (contador));
 		
 		contador--;
-		System.out.println("Contador--: " + (contador--));
+		System.out.println("Contador--: " + (contador));
 	}
 }
